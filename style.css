@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", "sans-serif";
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/*DEBUT-----------------------------------------------------*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    padding: 25px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #0065fc;
+    border-top: solid 4px rgba(0, 101, 252, 1);
+}
+
+.main {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.research {
+    line-height: 30px;
+}
+
+.research p {
+    font-size: 20px;
+}
+
+.h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.search {
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search i {
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.search input {
+    font-size: 20px;
+    padding-left: 10px;
+    width: 200px;
+}
+
+.search button {
+    background-color: blue;
+    width: 150px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 0 10px 10px 0;
+}
+
+.filter {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.filter p {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    padding: 5px;
+    border-radius: 30px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.fcard i {
+    margin-right: 5px;
+}
+
+.fcard p {
+    font-weight: inherit;
+    font-size: 20px;
+}
+
+.infohead p {
+    display: flex;
+}
+
+.infohead i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+
+/*HEBER-----------------------------------------------------*/
+
+.sect-hebergement {
+    margin-top: 20px;
+    background-color: #F2F2F2;
+    width: 60%;
+}
+
+.sect-hebergement .h2 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+
+.container-card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 30%;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+}
+
+
+/*POPULAR-----------------------------------------------------*/
+
+.contain-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.popular {
+    background-color: #F2F2F2;
+    width: 30%;
+}
+
+.p-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+
+.pcard {
+    width: 90%;
+}
+
+.pcard img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
