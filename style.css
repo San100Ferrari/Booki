@@ -143,6 +143,7 @@ nav a:hover {
     margin-top: 20px;
     background-color: #F2F2F2;
     width: 60%;
+    height: 800px;
 }
 
 .sect-hebergement .h2 {
@@ -180,6 +181,7 @@ nav a:hover {
 .card img {
     width: 100%;
     height: 200px;
+    object-fit: cover;
 }
 
 
@@ -194,6 +196,7 @@ nav a:hover {
 .popular {
     background-color: #F2F2F2;
     width: 30%;
+    height: 800px;
 }
 
 .p-title {
@@ -207,12 +210,33 @@ nav a:hover {
     padding-top: 50px;
 }
 
+.container-pcard {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-around;
+    flex-direction: column;
+}
+
 .pcard {
     width: 90%;
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #fff;
+    padding: 10px;
 }
 
 .pcard img {
-    width: 100%;
+    width: 60%;
     height: 150px;
     object-fit: cover;
+}
+
+.pcard1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.pcard2 {
+    margin-top: 40%;
 }
