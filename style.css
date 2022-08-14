@@ -247,9 +247,16 @@ nav a:hover {
 .sect-activites {
     margin-top: 30px;
     background-color: #F2F2F2;
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+    width: 95%;
+    margin-right: 2, 5%;
+    margin-left: 2.5%;
+    margin-bottom: 50px;
+}
+
+.sect-activites h2 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 50px;
 }
 
 .contain-act {
@@ -259,7 +266,9 @@ nav a:hover {
 }
 
 .acard {
-    width: 20%;
+    width: 95%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
 }
 
 .acard img {
@@ -270,4 +279,29 @@ nav a:hover {
 .little {
     display: flex;
     flex-direction: column;
+}
+
+.big img {
+    height: 400px;
+}
+
+.little img {
+    height: 200px;
+}
+
+
+/*FOOTER-----------------------------------------------------*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 50px;
+}
+
+.footer h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
