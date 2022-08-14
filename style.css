@@ -240,3 +240,34 @@ nav a:hover {
 .pcard2 {
     margin-top: 40%;
 }
+
+
+/*ACTIVITES-----------------------------------------------------*/
+
+.sect-activites {
+    margin-top: 30px;
+    background-color: #F2F2F2;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.contain-act {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.acard {
+    width: 20%;
+}
+
+.acard img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.little {
+    display: flex;
+    flex-direction: column;
+}
