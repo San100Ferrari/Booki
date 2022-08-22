@@ -24,3 +24,15 @@ I :
 
 FOOTER :
 mettre <a href="#">Exemple</a>
+
+
+TO DO :
+- heber : les i et box-shadow voir si il faut revoir les tailles des box
+- regler le bug du décalge entre heber et popular
+- import raleway police fonts
+- définir les breakpoints
+- mettre curseur point sur btn
+- mettre la police normale pour les a du site
+- popular fair div sur l'img
+- restabiliser les tailles dans leur ensemble
+- s'occuper des filters
