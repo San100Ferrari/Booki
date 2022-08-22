@@ -6,6 +6,7 @@
 a {
     color: inherit;
     text-decoration: none;
+    font-family: "Raleway", "sans-serif";
 }
 
 
@@ -283,17 +284,13 @@ nav a:hover {
 
 .sect-activites {
     margin-top: 30px;
-    background-color: #F2F2F2;
-    width: 95%;
-    margin-right: 2, 5%;
-    margin-left: 2.5%;
+    width: 100%;
     margin-bottom: 50px;
 }
 
 .sect-activites h2 {
-    margin-bottom: 20px;
-    margin-left: 20px;
-    padding-top: 50px;
+    margin-top: 50px;
+    margin: 50px 30px 30px 30px;
 }
 
 .contain-act {

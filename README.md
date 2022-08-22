@@ -36,3 +36,4 @@ TO DO :
 - popular fair div sur l'img
 - restabiliser les tailles dans leur ensemble
 - s'occuper des filters
+- trouver une balise/property pour bold les tarifs
