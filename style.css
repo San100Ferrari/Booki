@@ -143,7 +143,7 @@ nav a:hover {
 .sect-hebergement {
     margin-top: 20px;
     background-color: #F2F2F2;
-    width: 60%;
+    width: 62%;
     height: auto;
     border-radius: 30px 30px 30px 30px;
 }
@@ -176,14 +176,18 @@ nav a:hover {
 
 .card {
     width: 30%;
-    height: 250px;
+    height: 200px;
     background-color: #fff;
     border-radius: 30px 30px 30px 30px;
 }
 
+.himg {
+    padding: 5px;
+}
+
 .card img {
     width: 100%;
-    height: 150px;
+    height: 100px;
     object-fit: cover;
     border-radius: 30px 30px 0 0;
 }
@@ -212,7 +216,7 @@ nav a:hover {
 
 .contain-all {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     width: 100%;
 }
@@ -259,7 +263,7 @@ nav a:hover {
 }
 
 .pcard img {
-    width: 100%;
+    width: 150px;
     height: 100%;
     object-fit: cover;
     border-radius: 30px 0 0 30px;
@@ -269,14 +273,16 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    width: 100%;
 }
 
 .pcard1 h3 {
     font-weight: bold;
 }
 
-.pcard2 {
-    margin-top: 40%;
+.stars {
+    display: flex;
+    align-items: end;
 }
 
 
