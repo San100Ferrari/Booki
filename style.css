@@ -27,7 +27,7 @@ nav {
 }
 
 nav a {
-    padding: 25px;
+    padding: 30px;
     font-size: 20px;
 }
 
@@ -141,7 +141,6 @@ nav a:hover {
 /*HEBER-----------------------------------------------------*/
 
 .sect-hebergement {
-    margin-top: 20px;
     background-color: #F2F2F2;
     width: 62%;
     height: auto;
@@ -193,7 +192,7 @@ nav a:hover {
 }
 
 .descri {
-    padding: 10px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -206,7 +205,7 @@ nav a:hover {
 }
 
 .afficher {
-    margin: 25px;
+    margin: 20px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -215,8 +214,9 @@ nav a:hover {
 /*POPULAR-----------------------------------------------------*/
 
 .contain-all {
+    margin-top: 20px;
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
 }
@@ -226,7 +226,6 @@ nav a:hover {
     width: 35%;
     height: auto;
     border-radius: 30px;
-    margin-top: -15px;
 }
 
 .p-title {
@@ -295,25 +294,35 @@ nav a:hover {
 }
 
 .sect-activites h2 {
-    margin-top: 50px;
-    margin: 50px 30px 30px 30px;
+    margin: 70px 30px 30px 30px;
 }
 
 .contain-act {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
 }
 
 .acard {
-    width: 95%;
+    width: 90%;
     margin-right: 2.5%;
     margin-left: 2.5%;
+    border-radius: 30px;
+    box-shadow: 0px 4px 36px 11px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 0px 4px 36px 11px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px 4px 36px 11px rgba(0, 0, 0, 0.56);
 }
 
 .acard img {
     width: 100%;
     object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+.acard h3 {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .little {
@@ -321,12 +330,20 @@ nav a:hover {
     flex-direction: column;
 }
 
+.little .acard {
+    height: 150px;
+}
+
+.mt {
+    margin-top: 80px;
+}
+
 .big img {
     height: 400px;
 }
 
 .little img {
-    height: 200px;
+    height: 150px;
 }
 
 
@@ -334,7 +351,7 @@ nav a:hover {
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #F2F2F2;
     padding: 50px;
