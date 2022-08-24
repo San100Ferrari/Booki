@@ -87,7 +87,7 @@ nav a:hover {
 }
 
 .filter {
-    margin-top: 20px;
+    margin: 30px 30px 30px 0;
     width: 100%;
     display: flex;
 }
@@ -97,17 +97,18 @@ nav a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 25px;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .fcard {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border: solid black 1px;
     padding: 5px;
     border-radius: 30px;
-    height: 40px;
+    height: 60px;
     margin-right: 10px;
 }
 
@@ -134,7 +135,9 @@ nav a:hover {
     border-radius: 50px;
     width: 10px;
     height: 10px;
-    margin-right: 5px;
+    margin-top: 2px;
+    margin-right: 10px;
+    color: #0065fc;
 }
 
 
@@ -368,4 +371,38 @@ nav a:hover {
 .fdiv {
     display: flex;
     flex-direction: column;
+    font-size: 20px;
+}
+
+
+/*FOOTER-----------------------------------------------------*/
+
+
+/*Tablets-----------------------------------------------------*/
+
+
+/*768px-----------------------------------------------------*/
+
+@media only screen and (max-width: 992px) {
+    .h2 {
+        font-size: 25px;
+    }
+    .card {
+        height: 225px;
+    }
+    .pcard img {
+        width: 100%;
+    }
+    .cimg {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .h2 {
+        font-size: 20px;
+    }
+    .fdiv {
+        font-size: 15px;
+    }
 }
