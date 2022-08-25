@@ -24,16 +24,19 @@ a {
 nav {
     display: flex;
     justify-content: space-between;
+    font-family: "Raleway", "sans-serif";
 }
 
 nav a {
     padding: 30px;
     font-size: 20px;
+    font-family: "Raleway", "sans-serif";
 }
 
 nav a:hover {
     color: #0065fc;
     border-top: solid 4px rgba(0, 101, 252, 1);
+    font-family: "Raleway", "sans-serif";
 }
 
 .main {
@@ -360,6 +363,8 @@ nav a:hover {
     align-items: center;
     background-color: #F2F2F2;
     padding: 50px;
+    flex-direction: row;
+    font-family: "Raleway", "sans-serif";
 }
 
 .footer h4 {
