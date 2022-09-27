@@ -10,6 +10,14 @@ a {
     cursor: pointer;
 }
 
+.blue {
+    color: blue;
+}
+
+.grey {
+    color: darkgrey;
+}
+
 
 /*DEBUT-----------------------------------------------------*/
 
@@ -295,13 +303,6 @@ nav a:hover {
     font-weight: bold;
 }
 
-.stars {
-    display: flex;
-    align-items: end;
-    margin-top: 20%;
-    margin-bottom: 10%;
-}
-
 
 /*ACTIVITES-----------------------------------------------------*/
 
@@ -319,6 +320,10 @@ nav a:hover {
     display: flex;
     justify-content: space-around;
     align-items: start;
+}
+
+.big {
+    width: 25%;
 }
 
 .acard {
@@ -344,22 +349,11 @@ nav a:hover {
 .little {
     display: flex;
     flex-direction: column;
-}
-
-.little .acard {
-    height: 150px;
+    width: 25%;
 }
 
 .mt {
-    margin-top: 80px;
-}
-
-.big img {
-    height: 400px;
-}
-
-.little img {
-    height: 150px;
+    margin-top: 30px;
 }
 
 
