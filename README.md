@@ -37,3 +37,22 @@ TO DO :
 - restabiliser les tailles dans leur ensemble
 - s'occuper des filters
 - trouver une balise/property pour bold les tarifs
+
+Lundi avant soutenance :
+- faire les stars
+- changer les colors
+- bkp 1024px
+- image cliquable agrandis act
+- arranger les filters
+- essayer de mettre des anims
+- arranger les tailles de police
+- bold les €
+- loupe sur mobile rechercher donc display none 
+- mettre du texte dans alt
+- margin des stars
+- remettre de l'ordre dans l'indentat°
+
+
+Révisions du guide :
+- entrainement oral
+- texte d'accompagnement
