@@ -20,7 +20,6 @@ a {
 
 .bs {
     box-shadow: 0px 0px 10px rgba(41, 41, 41);
-    ;
 }
 
 
@@ -240,8 +239,8 @@ nav a:hover {
     font-size: 20px;
 }
 
-.container-pcard {
-    height: 500px;
+.descri .stars {
+    margin-top: 12px;
 }
 
 
@@ -250,7 +249,7 @@ nav a:hover {
 .contain-all {
     margin-top: 20px;
     display: flex;
-    align-items: center;
+    align-items: justify;
     justify-content: space-between;
     width: 100%;
 }
@@ -258,7 +257,6 @@ nav a:hover {
 .popular {
     background-color: #F2F2F2;
     width: 35%;
-    height: auto;
     border-radius: 30px;
 }
 
@@ -316,6 +314,10 @@ nav a:hover {
     font-weight: bold;
 }
 
+.pcard2 .stars {
+    margin-top: 50px;
+}
+
 
 /*ACTIVITES-----------------------------------------------------*/
 
@@ -366,7 +368,7 @@ nav a:hover {
 }
 
 .mt {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .big img {
@@ -403,13 +405,25 @@ nav a:hover {
 }
 
 
-/*FOOTER-----------------------------------------------------*/
+/*Desktop-----------------------------------------------------*/
+
+
+/*1024px-----------------------------------------------------*/
+
+@media only screen and (max-width: 1024px) {
+    .descri .stars {
+        margin-top: none;
+    }
+    .pcard2 .stars {
+        margin-top: none;
+    }
+}
 
 
 /*Tablets-----------------------------------------------------*/
 
 
-/*768px-----------------------------------------------------*/
+/*992px-----------------------------------------------------*/
 
 @media only screen and (max-width: 992px) {
     body {
@@ -433,6 +447,12 @@ nav a:hover {
         padding: 15px;
         width: 100%;
     }
+    #hebergements {
+        height: 800px;
+    }
+    .popular {
+        height: 1000px;
+    }
     .card {
         height: 225px;
     }
@@ -443,6 +463,12 @@ nav a:hover {
         width: 80%;
     }
 }
+
+
+/*Phone-----------------------------------------------------*/
+
+
+/*768px-----------------------------------------------------*/
 
 @media only screen and (max-width: 768px) {
     .pfilter strong {

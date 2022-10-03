@@ -41,7 +41,7 @@ TO DO :
 Lundi avant soutenance :
 - faire les stars
 - changer les colors
-- bkp 1024px
+- bkp 1024px & 992px
 - image cliquable agrandis act
 - arranger les filters
 - essayer de mettre des anims
@@ -51,6 +51,7 @@ Lundi avant soutenance :
 - mettre du texte dans alt
 - margin des stars
 - remettre de l'ordre dans l'indentat°
+- heber et pop de même taille
 
 
 Révisions du guide :
