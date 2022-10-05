@@ -19,7 +19,6 @@ a {
 }
 
 .grey2 {
-    height: 400px;
     object-fit: cover;
 }
 
@@ -174,19 +173,20 @@ nav a:hover {
 
 /*HEBER-----------------------------------------------------*/
 
+.contain-all {
+    display: flex;
+    flex-direction: row;
+}
+
 .sect-hebergement {
     background-color: #F2F2F2;
     width: 62%;
-    height: 600px;
+    height: 500px;
     border-radius: 30px 30px 30px 30px;
 }
 
 .sect-hebergement .h2 {
     margin: 30px;
-}
-
-.sect-hebergement {
-    height: none;
 }
 
 .container-card {
