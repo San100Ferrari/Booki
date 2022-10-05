@@ -18,8 +18,17 @@ a {
     color: darkgrey;
 }
 
+.grey2 {
+    height: 400px;
+    object-fit: cover;
+}
+
 .bs {
     box-shadow: 0px 0px 10px rgba(41, 41, 41);
+}
+
+.afficher {
+    margin: none;
 }
 
 
@@ -234,7 +243,7 @@ nav a:hover {
 }
 
 .afficher {
-    margin: 20px;
+    margin: none;
     font-weight: bold;
     font-size: 20px;
 }
@@ -246,12 +255,17 @@ nav a:hover {
 
 /*POPULAR-----------------------------------------------------*/
 
+.container-card {
+    height: 800px;
+}
+
 .contain-all {
     margin-top: 20px;
     display: flex;
     align-items: justify;
     justify-content: space-between;
     width: 100%;
+    height: 800px;
 }
 
 .popular {
@@ -405,21 +419,6 @@ nav a:hover {
 }
 
 
-/*Desktop-----------------------------------------------------*/
-
-
-/*1024px-----------------------------------------------------*/
-
-@media only screen and (max-width: 1024px) {
-    .descri .stars {
-        margin-top: none;
-    }
-    .pcard2 .stars {
-        margin-top: none;
-    }
-}
-
-
 /*Tablets-----------------------------------------------------*/
 
 
@@ -446,12 +445,10 @@ nav a:hover {
         border-radius: 15px;
         padding: 15px;
         width: 100%;
+        height: 700px;
     }
-    #hebergements {
-        height: 800px;
-    }
-    .popular {
-        height: 1000px;
+    article .popular {
+        height: 700px;
     }
     .card {
         height: 225px;
@@ -462,6 +459,9 @@ nav a:hover {
     .cimg {
         width: 80%;
     }
+    .mt {
+        margin-top: 30px;
+    }
 }
 
 
@@ -471,8 +471,11 @@ nav a:hover {
 /*768px-----------------------------------------------------*/
 
 @media only screen and (max-width: 768px) {
-    .pfilter strong {
-        font-size: 30px;
+    .header {
+        height: 400px;
+    }
+    .pcard {
+        height: 400px;
     }
     .h2 {
         font-size: 20px;
@@ -484,22 +487,41 @@ nav a:hover {
         font-size: 15px;
     }
     .stars {
-        margin-top: 30px;
+        margin-top: 50px;
     }
     .contain-all {
         display: flex;
         flex-direction: column-reverse;
+        height: 300px;
+        display: relative;
     }
     .popular {
         width: 100%;
+        height: 800px;
+    }
+    .popular img {
+        height: 300px;
     }
     .sect-hebergement {
         width: 100%;
+        height: 500px;
+    }
+    .pcard1 {
+        height: 300px;
+    }
+    .sect-activites {
+        margin-top: 50px;
+    }
+    .contain-all {
+        height: 500px;
     }
     /*hebergements----------------------------------------------------------*/
     .sect-hebergement {
         margin-top: 30px;
         margin-bottom: 500px;
+    }
+    .container-card {
+        height: 350px;
     }
     .card1 {
         display: flex;
@@ -512,17 +534,15 @@ nav a:hover {
     .card {
         width: 90%;
         right: 25%;
+        height: auto;
     }
     .card img {
         width: 100%;
         height: 200px;
     }
-    .mb {
-        height: 350px;
-    }
     /*activités----------------------------------------------------------*/
     .sect-activites {
-        margin-top: 1200px;
+        margin-top: 20px;
     }
     /*footer----------------------------------------------------------*/
     .footer {
