@@ -18,18 +18,6 @@ a {
     color: darkgrey;
 }
 
-.grey2 {
-    object-fit: cover;
-}
-
-.bs {
-    box-shadow: 0px 0px 10px rgba(41, 41, 41);
-}
-
-.afficher {
-    margin: none;
-}
-
 
 /*DEBUT-----------------------------------------------------*/
 
@@ -76,6 +64,7 @@ nav a:hover {
 .h2 {
     font-size: 30px;
     font-weight: bold;
+    margin: 50px 50px 50px 30px;
 }
 
 .search {
@@ -175,24 +164,23 @@ nav a:hover {
 
 .contain-all {
     display: flex;
-    flex-direction: row;
 }
 
 .sect-hebergement {
     background-color: #F2F2F2;
     width: 62%;
-    height: 500px;
+    height: auto;
     border-radius: 30px 30px 30px 30px;
 }
 
 .sect-hebergement .h2 {
-    margin: 30px;
+    margin: 50px 50px 50px 30px;
 }
 
 .container-card {
-    display: flex;
     width: 100%;
     flex-direction: column;
+    height: 800px;
 }
 
 .card1 {
@@ -213,7 +201,7 @@ nav a:hover {
 
 .card {
     width: 30%;
-    height: 200px;
+    height: 300px;
     background-color: #fff;
     border-radius: 30px 30px 30px 30px;
 }
@@ -224,7 +212,7 @@ nav a:hover {
 
 .card img {
     width: 100%;
-    height: 100px;
+    height: 150px;
     object-fit: cover;
     border-radius: 30px 30px 0 0;
 }
@@ -240,16 +228,13 @@ nav a:hover {
 
 .descri h3 {
     font-weight: bold;
-}
-
-.afficher {
-    margin: none;
-    font-weight: bold;
     font-size: 20px;
 }
 
-.descri .stars {
-    margin-top: 12px;
+.afficher {
+    margin: 30px;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 
@@ -272,6 +257,7 @@ nav a:hover {
     background-color: #F2F2F2;
     width: 35%;
     border-radius: 30px;
+    height: 800px;
 }
 
 .p-title {
@@ -280,7 +266,7 @@ nav a:hover {
     align-items: center;
     font-size: 30px;
     font-weight: bold;
-    margin: 30px;
+    margin: 50px 50px 50px 30px;
 }
 
 .p-title i {
@@ -326,10 +312,7 @@ nav a:hover {
 
 .pcard1 h3 {
     font-weight: bold;
-}
-
-.pcard2 .stars {
-    margin-top: 50px;
+    font-size: 20px;
 }
 
 
@@ -480,14 +463,8 @@ nav a:hover {
     .h2 {
         font-size: 20px;
     }
-    .pcard1 .stars {
-        margin-top: 20px;
-    }
     .fdiv {
         font-size: 15px;
-    }
-    .stars {
-        margin-top: 50px;
     }
     .contain-all {
         display: flex;
