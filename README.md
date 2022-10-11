@@ -27,29 +27,29 @@ mettre <a href="#">Exemple</a>
 
 
 TO DO :
-- heber : les i et box-shadow voir si il faut revoir les tailles des box
-- regler le bug du décalge entre heber et popular
-- import raleway police fonts
-- définir les breakpoints
-- mettre curseur point sur btn
-- mettre la police normale pour les a du site
-- popular fair div sur l'img
-- restabiliser les tailles dans leur ensemble
+- heber : les i et box-shadow voir si il faut revoir les tailles des box ²
+- regler le bug du décalge entre heber et popular ²
+- import raleway police fonts ²
+- définir les breakpoints ²
+- mettre curseur point sur btn ²
+- mettre la police normale pour les a du site ²
+- popular fair div sur l'img ²
+- restabiliser les tailles dans leur ensemble ²
 - s'occuper des filters
 - trouver une balise/property pour bold les tarifs
 
 Lundi avant soutenance :
 - faire les stars ²
-- changer les colors
+- changer les colors ! URGENT
 - bkp 1024px & 992px ²
-- image cliquable agrandis act
+- image cliquable agrandis act pop heber
 - arranger les filters
 - essayer de mettre des anims
 - arranger les tailles de police ²
 - bold les €
 - loupe sur mobile rechercher donc display none 
 - mettre du texte dans alt
-- margin des stars
+- margin des stars (abandon)
 - remettre de l'ordre dans l'indentat° ²
 - heber et pop de même taille ²
 - remettre de l'ordre dans la CATASTROPHE DU 768px ! URGENT

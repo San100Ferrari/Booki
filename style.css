@@ -478,4 +478,26 @@ nav a:hover {
 
 /*768px-----------------------------------------------------*/
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    /*debut-----------------------------------------------------*/
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin-right: 25%;
+        margin-left: 25%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .header img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        width: 100px;
+    }
+    nav a {
+        padding: 20px;
+    }
+    .research .h2 {
+        word-wrap: break-word;
+    }
+}
