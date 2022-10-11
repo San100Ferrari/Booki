@@ -441,13 +441,16 @@ nav a:hover {
         border-radius: 15px;
         padding: 15px;
         width: 100%;
-        height: 700px;
+        height: 600px;
     }
-    article .popular {
-        height: 700px;
+    .popular {
+        height: 600px;
     }
     .card {
-        height: 225px;
+        height: 200px;
+    }
+    .pcard {
+        height: 150px;
     }
     .pcard img {
         width: 100%;
@@ -455,8 +458,17 @@ nav a:hover {
     .cimg {
         width: 80%;
     }
+    .himg img {
+        height: 100px;
+    }
     .mt {
         margin-top: 30px;
+    }
+    .contain-all {
+        height: 600px;
+    }
+    .mb {
+        margin-bottom: 10px;
     }
 }
 
@@ -466,83 +478,4 @@ nav a:hover {
 
 /*768px-----------------------------------------------------*/
 
-@media only screen and (max-width: 768px) {
-    .header {
-        height: 400px;
-    }
-    .pcard {
-        height: 400px;
-    }
-    .h2 {
-        font-size: 20px;
-    }
-    .fdiv {
-        font-size: 15px;
-    }
-    .contain-all {
-        display: flex;
-        flex-direction: column-reverse;
-        height: 300px;
-        display: relative;
-    }
-    .popular {
-        width: 100%;
-        height: 800px;
-    }
-    .popular img {
-        height: 300px;
-    }
-    .sect-hebergement {
-        width: 100%;
-        height: 500px;
-    }
-    .pcard1 {
-        height: 300px;
-    }
-    .sect-activites {
-        margin-top: 50px;
-    }
-    .contain-all {
-        height: 500px;
-    }
-    /*hebergements----------------------------------------------------------*/
-    .sect-hebergement {
-        margin-top: 30px;
-        margin-bottom: 500px;
-    }
-    .container-card {
-        height: 350px;
-    }
-    .card1 {
-        display: flex;
-        flex-direction: column;
-    }
-    .card2 {
-        display: flex;
-        flex-direction: column;
-    }
-    .card {
-        width: 90%;
-        right: 25%;
-        height: auto;
-    }
-    .card img {
-        width: 100%;
-        height: 200px;
-    }
-    /*activités----------------------------------------------------------*/
-    .sect-activites {
-        margin-top: 20px;
-    }
-    /*footer----------------------------------------------------------*/
-    .footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        margin-top: 50px;
-    }
-    .footer h4 {
-        margin-top: 30px;
-    }
-}
+@media only screen and (max-width: 768px) {}

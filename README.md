@@ -39,19 +39,20 @@ TO DO :
 - trouver une balise/property pour bold les tarifs
 
 Lundi avant soutenance :
-- faire les stars
+- faire les stars ²
 - changer les colors
-- bkp 1024px & 992px
+- bkp 1024px & 992px ²
 - image cliquable agrandis act
 - arranger les filters
 - essayer de mettre des anims
-- arranger les tailles de police
+- arranger les tailles de police ²
 - bold les €
 - loupe sur mobile rechercher donc display none 
 - mettre du texte dans alt
 - margin des stars
-- remettre de l'ordre dans l'indentat°
-- heber et pop de même taille
+- remettre de l'ordre dans l'indentat° ²
+- heber et pop de même taille ²
+- remettre de l'ordre dans la CATASTROPHE DU 768px ! URGENT
 
 
 Révisions du guide :
