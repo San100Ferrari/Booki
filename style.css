@@ -483,10 +483,7 @@ nav a:hover {
     .header {
         display: flex;
         flex-direction: column;
-        margin-right: 25%;
-        margin-left: 25%;
         margin-bottom: 30px;
-        margin-top: 20px;
     }
     .header img {
         display: flex;
@@ -494,10 +491,39 @@ nav a:hover {
         margin-bottom: 30px;
         width: 100px;
     }
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
     nav a {
         padding: 20px;
+        width: 50%;
+    }
+    .ancre {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
     .research .h2 {
         word-wrap: break-word;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .research {
+        margin: 10px;
+    }
+    .pheader {
+        margin: 10px;
+    }
+    .search {
+        margin: 10px;
+    }
+    .fcard {
+        margin: 5px;
+    }
+    .btnh {
+        display: none;
     }
 }
