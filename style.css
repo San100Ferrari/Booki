@@ -342,10 +342,12 @@ nav a:hover {
 .contain-act {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .big {
     width: 25%;
+    height: 400px;
 }
 
 .acard {
@@ -354,6 +356,7 @@ nav a:hover {
     margin-left: 2.5%;
     border-radius: 30px;
     box-shadow: 0px 0px 10px rgba(41, 41, 41);
+    line-height: 1rem;
 }
 
 .acard img {
@@ -375,7 +378,7 @@ nav a:hover {
 }
 
 .mt {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .big img {
