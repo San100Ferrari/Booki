@@ -605,6 +605,10 @@ nav a:hover {
         font-size: 30px;
         text-align: center;
     }
+    .sect-activites h3 {
+        font-size: 30px;
+        text-align: center;
+    }
     .contain-act {
         display: flex;
         flex-direction: column;
@@ -628,5 +632,16 @@ nav a:hover {
     }
     .mt {
         margin: none;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: left;
+        justify-content: start;
+        align-items: start;
+    }
+    .footer h4 {
+        margin-top: 10px;
     }
 }
