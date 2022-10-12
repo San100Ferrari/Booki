@@ -541,6 +541,18 @@ nav a:hover {
         flex-direction: column-reverse;
         height: auto;
     }
+    .h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .sect-hebergement .h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .p-title {
+        font-size: 30px;
+        text-align: center;
+    }
     .popular {
         width: 100%;
     }
@@ -554,6 +566,67 @@ nav a:hover {
         font-size: 20px
     }
     .pcard .stars {
+        margin-top: 40px;
+    }
+    .sect-hebergement {
         margin-top: 30px;
+        width: 100%;
+    }
+    .card {
+        width: 90%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .card img {
+        height: 180px;
+    }
+    .card1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .card2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .descri {
+        padding: 20px;
+    }
+    .descri h3 {
+        font-size: 20px;
+    }
+    .descri p {
+        font-size: 20px;
+    }
+    .sect-hebergement .mb {
+        margin: none;
+    }
+    /*act & footer-----------------------------------------------------*/
+    .sect-activites .h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .contain-act {
+        display: flex;
+        flex-direction: column;
+    }
+    .acard {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .acard img {
+        height: 250px;
+    }
+    .big {
+        width: 90%;
+        margin-bottom: 30px;
+        height: 300px;
+    }
+    .little {
+        width: 90%;
+        margin: none;
+    }
+    .mt {
+        margin: none;
     }
 }
