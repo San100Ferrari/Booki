@@ -18,6 +18,30 @@ a {
     color: darkgrey;
 }
 
+.cn {
+    color: rgb(79, 117, 162);
+}
+
+.rs {
+    background-color: rgb(1, 100, 253);
+}
+
+.is {
+    color: rgb(7, 102, 244);
+}
+
+.ps {
+    background-color: rgb(220 233 250);
+}
+
+.se {
+    background-color: rgb(242 242 242);
+}
+
+.ch {
+    background-color: rgb(255 255 255);
+}
+
 
 /*DEBUT-----------------------------------------------------*/
 
@@ -606,7 +630,7 @@ nav a:hover {
         text-align: center;
     }
     .sect-activites h3 {
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
     .contain-act {
@@ -642,6 +666,6 @@ nav a:hover {
         align-items: start;
     }
     .footer h4 {
-        margin-top: 10px;
+        margin-top: 15px;
     }
 }
