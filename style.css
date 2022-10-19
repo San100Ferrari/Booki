@@ -42,6 +42,10 @@ a {
     background-color: rgb(255 255 255);
 }
 
+.bs {
+    box-shadow: 0px 1px 4px -3px rgba(0, 0, 0, 0.75);
+}
+
 
 /*DEBUT-----------------------------------------------------*/
 
@@ -123,7 +127,11 @@ nav a:hover {
     border-radius: 0 10px 10px 0;
 }
 
-.btnhl {
+.btnh {
+    cursor: pointer;
+}
+
+.btni {
     display: none;
 }
 
@@ -144,10 +152,10 @@ nav a:hover {
 .fcard {
     display: flex;
     justify-content: center;
-    border: solid black 1px;
     border-radius: 30px;
     height: 60px;
     margin-right: 10px;
+    border: solid rgb(227 219 219) 1px;
 }
 
 .fcard i {
@@ -382,7 +390,6 @@ nav a:hover {
     margin-right: 2.5%;
     margin-left: 2.5%;
     border-radius: 30px;
-    box-shadow: 0px 0px 10px rgba(41, 41, 41);
     line-height: 1rem;
 }
 
@@ -528,6 +535,11 @@ nav a:hover {
         padding: 20px;
         width: 50%;
     }
+    nav a:hover {
+        color: #0065fc;
+        border-bottom: solid 4px rgba(0, 101, 252, 1);
+        font-family: "Raleway", "sans-serif";
+    }
     .ancre {
         display: flex;
         justify-content: center;
@@ -550,14 +562,16 @@ nav a:hover {
     .fcard {
         margin: 5px;
     }
-    .btnh {
+    button {
         display: none;
     }
-    .search i .btnhl {
-        width: 10px;
+    .btni {
+        display: block;
+        height: 20px;
+        width: 20px;
     }
-    .btnhl {
-        border-radius: 10% 10% 10% 10%;
+    .btni i {
+        border-radius: 0 10px 10px 0;
     }
     /*heber & pop-----------------------------------------------------*/
     .contain-all {
