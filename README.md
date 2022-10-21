@@ -59,3 +59,6 @@ Révisions du guide :
 - entrainement oral
 - texte d'accompagnement
 
+/*Les couleurs de la charte sont le bleu (#0065FC), une version plus claire de ce bleu
+(#DEEBFF) et le gris pour le fond (#F2F2F2).
+}*/

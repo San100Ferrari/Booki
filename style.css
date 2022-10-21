@@ -10,40 +10,29 @@ a {
     cursor: pointer;
 }
 
+
+/*Les couleurs de la charte sont le bleu (#0065FC), une version plus claire de ce bleu
+(#DEEBFF) et le gris pour le fond (#F2F2F2).
+}*/
+
 .blue {
-    color: blue;
+    color: #0065FC;
+}
+
+.bgb {
+    background-color: #0065FC;
 }
 
 .grey {
     color: darkgrey;
 }
 
-.cn {
-    color: rgb(79, 117, 162);
-}
-
-.rs {
-    background-color: rgb(1, 100, 253);
-}
-
 .is {
-    color: rgb(7, 102, 244);
-}
-
-.ps {
-    background-color: rgb(220 233 250);
-}
-
-.se {
-    background-color: rgb(242 242 242);
-}
-
-.ch {
-    background-color: rgb(255 255 255);
+    color: #DEEBFF;
 }
 
 .bs {
-    box-shadow: 0px 1px 4px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
 }
 
 
@@ -68,11 +57,12 @@ nav a {
     padding: 30px;
     font-size: 20px;
     font-family: "Raleway", "sans-serif";
+    color: black;
 }
 
 nav a:hover {
     color: #0065fc;
-    border-top: solid 4px rgba(0, 101, 252, 1);
+    border-top: solid 4px #0065fc;
     font-family: "Raleway", "sans-serif";
 }
 
@@ -103,7 +93,7 @@ nav a:hover {
 }
 
 .search i {
-    background-color: grey;
+    background-color: #F2F2F2;
     width: 50px;
     height: 50px;
     display: flex;
@@ -119,7 +109,6 @@ nav a:hover {
 }
 
 .search button {
-    background-color: blue;
     width: 150px;
     color: white;
     border: none;
@@ -160,7 +149,6 @@ nav a:hover {
 
 .fcard i {
     border-radius: 30px;
-    border: 2px solid lightgray;
     margin-right: 5px;
     color: #0065fc;
     display: flex;
@@ -255,7 +243,7 @@ nav a:hover {
 }
 
 .descri {
-    padding: 2px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -534,10 +522,12 @@ nav a:hover {
     nav a {
         padding: 20px;
         width: 50%;
+        border-bottom: solid lightgray 2px;
     }
     nav a:hover {
+        border-top: none;
         color: #0065fc;
-        border-bottom: solid 4px rgba(0, 101, 252, 1);
+        border-bottom: solid 4px #0065FC;
         font-family: "Raleway", "sans-serif";
     }
     .ancre {
@@ -559,6 +549,9 @@ nav a:hover {
     .search {
         margin: 10px;
     }
+    .search i {
+        background-color: #F2F2F2;
+    }
     .fcard {
         margin: 5px;
     }
@@ -571,7 +564,10 @@ nav a:hover {
         width: 20px;
     }
     .btni i {
-        border-radius: 0 10px 10px 0;
+        position: relative;
+        left: -5px;
+        border-radius: 10px 10px 10px 10px;
+        background-color: #0065FC;
     }
     /*heber & pop-----------------------------------------------------*/
     .contain-all {
@@ -594,8 +590,8 @@ nav a:hover {
     .popular {
         width: 100%;
     }
-    .pcard img {
-        width: 400px;
+    .cimg {
+        width: 40%;
     }
     .pcard1 h3 {
         font-size: 20px
