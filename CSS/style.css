@@ -309,7 +309,6 @@ nav a:hover {
 .container-pcard {
     display: flex;
     justify-content: space-between;
-    align-items: space-around;
     flex-direction: column;
 }
 
@@ -648,7 +647,7 @@ nav a:hover {
         font-size: 20px;
     }
     .sect-hebergement .mb {
-        margin: none;
+        margin: 0;
     }
     /*act & footer-----------------------------------------------------*/
     .sect-activites .h2 {
@@ -678,10 +677,10 @@ nav a:hover {
     }
     .little {
         width: 90%;
-        margin: none;
+        margin: 0;
     }
     .mt {
-        margin: none;
+        margin: 0;
     }
     .footer {
         display: flex;
