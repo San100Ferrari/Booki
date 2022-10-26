@@ -327,11 +327,12 @@ nav a:hover {
 
 .cimg {
     object-fit: cover;
+    width: 40%;
 }
 
 .pcard img {
-    width: 150px;
     height: 100%;
+    width: 100%;
     object-fit: cover;
     border-radius: 30px 0 0 30px;
 }
@@ -340,7 +341,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    width: 100%;
+    width: 60%;
     line-height: 1rem;
 }
 
@@ -463,6 +464,9 @@ nav a:hover {
         margin-top: 15px;
         margin-left: 7px;
     }
+    .fcard {
+        margin: 5px;
+    }
     .sect-hebergements {
         background-color: #F2F2F2;
         border-radius: 15px;
@@ -552,13 +556,20 @@ nav a:hover {
         margin: 10px;
     }
     .search {
-        margin: 10px;
+        margin: 10px 0 10px 0;
     }
     .search i {
         background-color: #F2F2F2;
     }
     .fcard {
         margin: 5px;
+    }
+    .filter {
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        margin-left: 7px;
     }
     button {
         display: none;
@@ -595,6 +606,9 @@ nav a:hover {
     .popular {
         width: 100%;
     }
+    .pcard img {
+        width: 100%;
+    }
     .cimg {
         width: 40%;
     }
@@ -603,9 +617,6 @@ nav a:hover {
     }
     .pcard1 p {
         font-size: 20px
-    }
-    .pcard .stars {
-        margin-top: 40px;
     }
     .sect-hebergement {
         margin-top: 30px;
